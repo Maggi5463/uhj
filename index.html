@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Templates Protfolio</title>
+    <style>
+        .header{
+            width: 25%;
+            height: 300vh;
+            position: fixed;
+            padding-top:50px;
+        }
+        .header a{
+            text-decoration: none;
+            display: block; 
+            color: gray;  
+        }
+        .header a:hover{
+            color: black;
+            background-color: gray;
+            padding: 6px;
+        }
+        .roh{
+          display: flex;
+        }
+        .roh div{
+          width: 75%;
+          margin-left: 320px;
+        }
+        .roh div img{
+          width: 500px;
+        }
+        
+        .section{
+            width: 75%;
+            /* height: 100%; */
+            margin-left: 350px;
+            display: grid;
+            grid-template-rows: 300px 300px 300px;
+            grid-template-columns: 310px 310px 310px;
+            justify-content: space-evenly;
+            align-content: center;
+            /* position: fixed; */
+        }
+        .section div{
+            justify-content: center;
+            align-content: center;
+        }
+        .section div:hover{
+            opacity: 0.5;
+        }
+       .bar{
+        height:40px;
+        width:600px;
+        background-color: white;
+        margin-left: 22%;
+       }
+       
+          .bar1{
+            width: 500px;
+            background-color: lightblue;
+            height: 40px;
+          }
+          .bar1 span{
+            font-size: 20px;
+            color: black;
+          }
+          .bar2{
+            width: 450px;
+            background-color: lightblue;
+            height: 40px;
+          }
+          .bar2 span{
+            font-size: 20px;
+            color: black;
+          }
+          .bar3{
+            width: 420px;
+            background-color: lightblue;
+            height: 40px;
+          }
+          .bar3 span{
+            font-size: 20px;
+            color: black;
+          }
+      .parent4{
+           display:flex;
+           justify-content: center;
+      }
+      .parent4 div{
+        display: flex;
+        margin: 5px;
+        align-content: center;
+      }
+      .parent4 div:hover{
+        opacity: 0.5;
+      }
+      .Megh{
+        display: flex;
+        justify-content: space-between;
+      }
+      .Megh div{
+        margin: 10px;
+      }
+      .Tel:hover{
+        background-color: black;
+        color: white;
+      }
+   .hide {
+      display: none;
+        }
+.gha:hover + .hide {
+      display: block;
+       color: red;
+}
+@media only screen and  (max-width:480px) {
+    .header {
+       position: relative;
+       border: 2px solid black;
+       height: 80px;
+       width: 300px;
+       display:flex;
+      justify-content: center;
+    }
+    .hhh{
+        font-size: 20px;
+    }
+    
+    .section{
+      grid-template-columns: auto;
+      margin: 10px;
+    }
+    
+.aaa{
+    width: 330px;
+}
+.roh {
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+.roh div{
+margin:50px;
+}
+.roh div img{
+  width: 300px;
+}
+.bar{
+    height:40px;
+    width:300px;
+    background-color: blue;
+    position: relative;
+    right: 55px;
+}
+.bar1{
+         width: 340px;
+        background-color: red;
+        height: 40px;
+        position: relative;
+        right:  55px;
+}
+.bar1 span{
+            font-size: 20px;
+            color: black;
+          }
+          .bar2{
+         width: 300px;
+        background-color: red;
+        height: 40px;
+        position: relative;
+        right:  55px;
+}
+.bar3{
+         width: 250px;
+        background-color: red;
+        height: 40px;
+        position: relative;
+        right:  55px;
+}
+.parent4{
+           flex-direction: column;
+           justify-content: space-around;
+           position: relative;
+           left:79px;
+      }
+      .ppp{
+        width: 480px;
+        position: relative;
+      }
+    .Megh{
+        flex-direction: column;
+    }
+}
+    </style>
+</head>
+<body>
+    <center><div class="header">
+      
+       <br>
+       <br>
+       <br>
+       <a href="#1">PROTFOLIO</a>
+       <br>
+       <a href="#2">ABOUT</a>
+       <br>
+       <a href="#3"> CONTACT</a>
+    </div>
+</center>
+    <div class="section" id="1">
+    <div class="gha"><img  src="https://www.w3schools.com/w3images/natureboy.jpg" alt="" height="310px" width="320px"></div>
+   <div class="hide">Hi</div>
+    <div><img src="https://www.w3schools.com/w3images/boy.jpg" alt=""height="310px" width="320px"></div>
+    <div><img src="https://www.w3schools.com/w3images/girl.jpg" alt=""height="310px" width="310px"></div>
+    <div><img src="https://www.w3schools.com/w3images/girl_mountain.jpg" alt=""height="310px" width="320px"></div>
+    <div><img src="https://www.w3schools.com/w3images/man_bench.jpg" alt=""height="310px" width="320px"></div>
+    <div><img src="https://www.w3schools.com/w3images/girl_train.jpg" alt=""height="310px" width="320px"></div>
+    <div><img src="https://www.w3schools.com/w3images/girl.jpg" alt=""height="310px" width="320px"></div>
+    <div><img src="https://www.w3schools.com/w3images/natureboy.jpg" alt=""height="310px" width="320px"></div>
+    <div><img src="https://www.w3schools.com/w3images/closegirl.jpg" alt=""height="310px" width="320px"></div>
+    </div>
+    <div class="roh">
+    <div>
+  <center>
+    <h2 style="color: white;" id="2">About Me</h2>
+    <img class="aaa" src="https://www.w3schools.com/w3images/avatar_hat.jpg" alt="">
+   <h1 style="color: white;">My Name</h1>
+   <p text-align: justify; width: 500px; color: white;>Some text about me. I love taking photos of PEOPLE. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  <p style="color: white;">mail: example@example.com</p>
+   <p style="color: white;">tel: 5353 35531</p>
+   </center>
+    </div>
+    </div>
+    <hr width="500px">
+  <center><h3>Technical Skills</h3></center>
+   <span style="margin-left: 25%; font-size: 18px; letter-spacing: 2px;">Photography</span>
+   <div class="bar">
+   <div class="bar1"><center><span>95%</span></center> </div>
+   </div><br>
+   <span style="margin-left: 25%; font-size: 18px; letter-spacing: 2px;">Photoshop</span>
+   <div class="bar">
+    <div class="bar2"><center><span>85%</span></center></div>
+    </div><br>
+    <span style="margin-left: 25%; font-size: 18px; letter-spacing: 2px;">Web Design</span>
+    <div class="bar">
+        <div class="bar3"><center><span> 80%</span> </center></div>
+        </div>
+        <br>
+        <br> 
+      <center><button style="height: 40px; width: 140px;"><a href="./Images/Screenshot (1050).png" download="cv">Resume </a></button></center>
+        <hr width="500px">
+        <center><h4 style="color: white;">How much I charge</h4></center>
+  </center>
+        <div class="parent4">
+        <div style="border: 2px solid black; height: 500px; width: 210px;">
+            <pre>
+                <center><h1 style="padding: 6px; font-size: 14px; background-color: black; color: white;">BASIC</h1></center>
+                <br>
+            Web Design
+            <hr width="210px">
+            Photography
+            <hr>
+            5gb Support
+            <hr>
+            Mail support
+           <hr>
+            $10
+            <hr>
+          Per Month
+            <br>
+         <button style=" background-color: black; color: white; height:35px; width: 100px;">Sign Up</button>
+         </pre>
+        </div>
+        <div style="border: 2px solid black; height:500px; width:210px;">
+            <pre>
+                <center><h1 style="padding: 6px; font-size: 14px; background-color: black; color: white;">PRO</h1></center>
+               <center>Web Design</center>
+                <hr>
+                <center>Photography</center>
+                <hr width="210px">
+                <center>50gb Support</center>
+                <hr width="210px">
+                <center>Mail support</center>
+               <hr width="210px">
+               <center>$10</center>
+            </pre>
+        </div>
+        </div>
+        <br>
+<center><div id="parent3" style="background-color: gainsboro;">
+    <div id="child1" >
+        <h4 style="padding: 20px;" id="3">Contact Me</h4>
+        <br>
+       <p>Do you want me to photograph you? Fill out the form and fill me in with the details :) I love meeting new people!</p>
+    <br>
+    <form> 
+    <input class="ppp" type="text" name="Name" placeholder="Name" style="width: 60%; height: 30px;">
+    <br>
+    <br>
+    <input type="text" name="Name" placeholder= "Email" style="width: 60%; height: 30px;">
+    <br>
+    <br>
+    <input type="text" name="Name" placeholder="Subject" style="width:60%; height: 30px;">
+    <br>
+    <br>
+    <input type="text" name="Name" placeholder="Message" style="width:60%; height: 30px;">
+    <br>
+    <br>
+    <input type="text" name="Name" placeholder="Send Message" style="width: 60%; height: 30px; background-color: black; color: white;">
+   </form>
+    </div>
+    </div>
+
+
+    <div class="Megh">
+    <div><h3>INFO</h3>
+        <p style="justify-content: center;">Praesent tincidunt sed tellus ut rutrum. Sed<br>
+             vitae justo condimentum, porta lectus vitae,<br> ultricies congue gravida diam non fringilla.</p>
+    </div>
+    <div class="Tel"><h3>BLOG POSTS</h3>
+        <img src="https://www.w3schools.com/w3images/workshop.jpg" alt="" height="60px" width="60px">Lorem<br>
+        Sed mattis nunc
+        <hr>
+        <img src="https://www.w3schools.com/w3images/gondol.jpg" alt="" height="60px" width="60px">IPSUM<br>Praes tinci sed
+    </div>
+    <div>
+        <h3>POPULAR TAGS</h3>
+        <button style="background-color: black; color: white;">Travel</button>
+        <button>New York</button>
+        <button>London</button>
+        <button>IKEA</button>
+        <button>NORWAY</button>
+        <br>
+        <button>DIY</button>
+        <button>IDEAS</button>
+        <button>BABY</button>
+        <button>NEWS</button>
+        <button>CLOTHING</button>
+        <button>FAMILY</button>
+        <br>
+        <button>SHOPPING</button>
+        <button>SPORTS</button>
+        <button>GAMES</button>
+    </div>
+    </div>
+    <div style="background-color: black; width: 100%; height: 110px; border: 2px solid black; margin-top: 15px;">
+        <center><p style="color: white; margin-top: 15px;">Powered by @Meghana</p></center>
+        </div>
+</center>
+</div>
+</body>
+</html>
